@@ -5,37 +5,15 @@
     let currentSection = components[id - 1];
 </script>
 
-<div class="container flex flex-col items-center mx-auto">
-    <h1 class="h1 my-5">{currentSection.title}</h1>
-    <h3 class="h3">{currentSection.description}</h3>
-        <div class="grid grid-cols-12 max-w-5xl gap-4">
-            {#each currentSection.content as section}
-                <!-- Card 1 -->
-                <div class="grid col-span-4 relative my-10">
-                    <a
-                        class="group shadow-lg hover:shadow-2xl duration-200 delay-75 w-full bg-white rounded-sm py-6 pr-6 pl-9"
-                        href="{section.link}"
-                    >
-                        <!-- Title -->
-                        <p
-                            class="text-2xl font-bold text-gray-500 group-hover:text-gray-700"
-                        >
-                            {section.title}
-                        </p>
-
-                        <!-- Description -->
-                        <p
-                            class="text-sm font-semibold text-gray-500 group-hover:text-gray-700 mt-2 leading-6"
-                        >
-                            
-                        </p>
-
-                        <!-- Color -->
-                        <div
-                            class="bg-blue-400 group-hover:bg-blue-600 h-full w-4 absolute top-0 left-0"
-                        ></div>
-                    </a>
-                </div>
-            {/each}
-        </div>
+<div class="flex flex-col items-center mx-auto">
+    <h1 class="h1 p-10">{currentSection.title}</h1>
+    <h3 class="h3 p-5">{currentSection.description}</h3>
+    <div class="flex flex-wrap justify-center">
+        {#each currentSection.content as section}
+        <a href="{section.link}" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+        
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{section.title}</h5>
+            </a>
+        {/each}
     </div>
+</div>
