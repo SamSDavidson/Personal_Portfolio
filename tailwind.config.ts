@@ -15,6 +15,11 @@ export default {
 		typography,
 		skeleton({
 			themes: {
+				preset: [
+					"vintage",
+					"seafoam",
+					"hamlindigo"
+				],
 				custom: [
 					myCustomTheme
 				]

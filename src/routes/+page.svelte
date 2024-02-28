@@ -14,11 +14,9 @@
         },
     ];
 </script>
-
 <div class="container h-full mx-auto flex max-sm:flex-wrap justify-center items-center">
     <div class="space-y-10 text-center flex flex-row max-sm:flex-wrap items-center">
         <div class="container mx-auto">
-            
             <h2 class="h2">Welcome to My Portfolio.</h2>
 
             <h5 class="h5">
@@ -35,7 +33,7 @@
             {#each buttons as button}
                 <a href={button.link}>
                     <button
-                        class="border-2 border-indigo-500 p-5 m-5 rounded-md hover:bg-blue-500"
+                        class="border-2 border-black p-5 m-5 rounded-md hover:bg-blue-500"
                     >
                         <h3 class="h3">{button.text}</h3>
                     </button>
