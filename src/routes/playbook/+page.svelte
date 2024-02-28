@@ -12,7 +12,7 @@
             sections in an understandable format.
         </p>
 
-        <div class="grid grid-flow-row grid-cols-4 items-center">
+        <div class="grid grid-flow-row grid-cols-4 max-sm:flex max-sm:flex-wrap items-center max-sm:justify-center">
             {#each components as component}
                 <div
                     class="border-2 m-3 p-3 border-blue-300 rounded-md flex flex-row"

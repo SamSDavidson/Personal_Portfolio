@@ -13,7 +13,6 @@
 				<a
 					class="btn btn-sm variant-ghost-surface"
 					href="/"
-					target="_blank"
 					rel="noreferrer"
 				>
 					Home
@@ -22,19 +21,11 @@
 			<svelte:fragment slot="trail">
 				<a
 					class="btn btn-sm variant-ghost-surface"
-					href="mailto:samdavidson@headtohogwarts.net"
+					href="mailto:samdavidson@skiff.com"
 					target="_blank"
 					rel="noreferrer"
 				>
-					Email me
-				</a>
-				<a
-					class="btn btn-sm variant-ghost-surface"
-					href="#"
-					target="_blank"
-					rel="noreferrer"
-				>
-					View my Resume
+					Email Me
 				</a>
 				<a
 					class="btn btn-sm variant-ghost-surface"
