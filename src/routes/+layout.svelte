@@ -19,11 +19,11 @@
 					tabindex="-1"
 				>
 					<div class="py-1" role="none">
-						<a class="btn btn-sm" href="/" rel="noreferrer">
+						<a class="btn btn-sm border-r-2 border-dotted border-black" href="/" rel="noreferrer">
 							Home
 						</a>
 						<a
-							class="btn btn-sm"
+							class="btn btn-sm border-r-2 border-dotted border-black"
 							href="https://github.com/SamSDavidson"
 							target="_blank"
 							rel="noreferrer"
@@ -38,16 +38,16 @@
 							Email Me
 						</a>
 						<a
-							class="btn btn-sm"
+							class="btn btn-sm border-r-2 border-dotted border-black"
 							href="/education"
 							rel="noreferrer"
 						>
 							Education
 						</a>
-						<a class="btn btn-sm" href="/personal" rel="noreferrer">
+						<a class="btn btn-sm border-r-2 border-dotted border-black" href="/personal" rel="noreferrer">
 							Personal Projects
 						</a>
-						<a class="btn btn-sm" href="/playbook" rel="noreferrer">
+						<a class="btn btn-sm border-r-2 border-dotted border-black" href="/playbook" rel="noreferrer">
 							Cybersecurity Playbook
 						</a>
 						<div class="btn btn-sm">
