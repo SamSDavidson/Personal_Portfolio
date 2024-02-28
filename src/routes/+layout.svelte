@@ -1,16 +1,14 @@
 <script lang="ts">
 	import "../app.postcss";
 	import { AppShell, AppBar, LightSwitch } from "@skeletonlabs/skeleton";
-	function handleClickEvent(e: Event) {
-		console.log(e);
-	}
+
 </script>
 
 <!-- App Shell -->
 <AppShell>
 	<svelte:fragment slot="header">
 		<AppBar>
-			<div class="relative inline-block text-left ">
+			<div class="relative inline-block text-left">
 				<div
 					class="z-10 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
 					role="menu"
@@ -30,7 +28,7 @@
 							>GitHub
 						</a>
 						<a
-							class="btn btn-sm "
+							class="btn btn-sm"
 							href="mailto:samdavidson@skiff.com"
 							target="_blank"
 							rel="noreferrer"

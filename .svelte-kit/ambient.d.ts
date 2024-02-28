@@ -29,6 +29,7 @@ declare module '$env/static/private' {
 	export const SHELL: string;
 	export const npm_command: string;
 	export const SESSION_MANAGER: string;
+	export const WINDOWID: string;
 	export const npm_config_userconfig: string;
 	export const COLORTERM: string;
 	export const XDG_CONFIG_DIRS: string;
@@ -61,12 +62,15 @@ declare module '$env/static/private' {
 	export const XDG_SEAT: string;
 	export const PWD: string;
 	export const QEMU_AUDIO_DRV: string;
-	export const XDG_SESSION_DESKTOP: string;
 	export const LOGNAME: string;
+	export const XDG_SESSION_DESKTOP: string;
 	export const XDG_SESSION_TYPE: string;
 	export const MANPATH: string;
+	export const PNPM_HOME: string;
 	export const npm_config_init_module: string;
+	export const _: string;
 	export const XAUTHORITY: string;
+	export const LS_OPTIONS: string;
 	export const XDG_GREETER_DATA_DIR: string;
 	export const XKEYSYMDB: string;
 	export const GDM_LANG: string;
@@ -74,11 +78,12 @@ declare module '$env/static/private' {
 	export const HOME: string;
 	export const SSH_ASKPASS: string;
 	export const LANG: string;
+	export const LS_COLORS: string;
 	export const XDG_CURRENT_DESKTOP: string;
 	export const npm_package_version: string;
 	export const PYTHONSTARTUP: string;
+	export const VTE_VERSION: string;
 	export const OSTYPE: string;
-	export const LC_EXTRATERM_COOKIE: string;
 	export const XDG_SEAT_PATH: string;
 	export const QT_IM_SWITCHER: string;
 	export const LESS_ADVANCED_PREPROCESSOR: string;
@@ -108,7 +113,6 @@ declare module '$env/static/private' {
 	export const XDG_SESSION_ID: string;
 	export const npm_config_user_agent: string;
 	export const npm_execpath: string;
-	export const QT_SCALE_FACTOR_ROUNDING_POLICY: string;
 	export const XDG_RUNTIME_DIR: string;
 	export const DEBUGINFOD_URLS: string;
 	export const npm_package_json: string;
@@ -128,7 +132,7 @@ declare module '$env/static/private' {
 	export const NODE_VERSION: string;
 	export const npm_node_execpath: string;
 	export const LESSKEY: string;
-	export const _: string;
+	export const OLDPWD: string;
 	export const NODE_ENV: string;
 }
 
@@ -164,6 +168,7 @@ declare module '$env/dynamic/private' {
 		SHELL: string;
 		npm_command: string;
 		SESSION_MANAGER: string;
+		WINDOWID: string;
 		npm_config_userconfig: string;
 		COLORTERM: string;
 		XDG_CONFIG_DIRS: string;
@@ -196,12 +201,15 @@ declare module '$env/dynamic/private' {
 		XDG_SEAT: string;
 		PWD: string;
 		QEMU_AUDIO_DRV: string;
-		XDG_SESSION_DESKTOP: string;
 		LOGNAME: string;
+		XDG_SESSION_DESKTOP: string;
 		XDG_SESSION_TYPE: string;
 		MANPATH: string;
+		PNPM_HOME: string;
 		npm_config_init_module: string;
+		_: string;
 		XAUTHORITY: string;
+		LS_OPTIONS: string;
 		XDG_GREETER_DATA_DIR: string;
 		XKEYSYMDB: string;
 		GDM_LANG: string;
@@ -209,11 +217,12 @@ declare module '$env/dynamic/private' {
 		HOME: string;
 		SSH_ASKPASS: string;
 		LANG: string;
+		LS_COLORS: string;
 		XDG_CURRENT_DESKTOP: string;
 		npm_package_version: string;
 		PYTHONSTARTUP: string;
+		VTE_VERSION: string;
 		OSTYPE: string;
-		LC_EXTRATERM_COOKIE: string;
 		XDG_SEAT_PATH: string;
 		QT_IM_SWITCHER: string;
 		LESS_ADVANCED_PREPROCESSOR: string;
@@ -243,7 +252,6 @@ declare module '$env/dynamic/private' {
 		XDG_SESSION_ID: string;
 		npm_config_user_agent: string;
 		npm_execpath: string;
-		QT_SCALE_FACTOR_ROUNDING_POLICY: string;
 		XDG_RUNTIME_DIR: string;
 		DEBUGINFOD_URLS: string;
 		npm_package_json: string;
@@ -263,7 +271,7 @@ declare module '$env/dynamic/private' {
 		NODE_VERSION: string;
 		npm_node_execpath: string;
 		LESSKEY: string;
-		_: string;
+		OLDPWD: string;
 		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;

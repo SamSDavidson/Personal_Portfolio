@@ -1,7 +1,19 @@
 {
-	"/": [],
-	"/education": [],
-	"/personal": [],
-	"/playbook": [],
-	"/playbook/[id]": []
+	"/": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/education": [
+		"src/routes/+layout.js"
+	],
+	"/personal": [
+		"src/routes/+layout.js"
+	],
+	"/playbook": [
+		"src/routes/+layout.js"
+	],
+	"/playbook/[id]": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	]
 }
