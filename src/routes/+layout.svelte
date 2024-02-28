@@ -4,16 +4,15 @@
 	function handleClickEvent(e: Event) {
 		console.log(e);
 	}
-	let menuActive = false;
 </script>
 
 <!-- App Shell -->
 <AppShell>
 	<svelte:fragment slot="header">
 		<AppBar>
-			<div class="relative inline-block text-left">
+			<div class="relative inline-block text-left ">
 				<div
-					class="z-10 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+					class="z-10 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none "
 					role="menu"
 					aria-orientation="vertical"
 					aria-labelledby="menu-button"
@@ -31,7 +30,7 @@
 							>GitHub
 						</a>
 						<a
-							class="btn btn-sm"
+							class="btn btn-sm border-r-2 border-dotted border-black"
 							href="mailto:samdavidson@skiff.com"
 							target="_blank"
 							rel="noreferrer"
