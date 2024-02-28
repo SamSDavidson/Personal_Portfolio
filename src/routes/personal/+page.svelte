@@ -34,7 +34,7 @@
       </section>
     </div>
   </section>
-  <section class="h-screen flex flex-row max-sm:flex-wrap items-center ">
+  <section class="h-screen flex flex-row max-sm:flex-wrap items-center">
     <div class="mx-auto flex flex-col items-center">
       <ul class="flex flex-col items-center">
         <li>Aruba</li>
@@ -57,7 +57,7 @@
       <h1 class="h1">Network Administration</h1>
     </div>
   </section>
-  <section class="h-screen flex flex-row max-sm:flex-wrap items-center ">
+  <section class="h-screen flex flex-row max-sm:flex-wrap items-center">
     <div class="mx-auto flex flex-col items-cente">
       <h1 class="h1">Systems Administration</h1>
     </div>
@@ -75,3 +75,25 @@
     </div>
   </section>
 </div>
+
+<style>
+  /* keyframe for text dropdown as the screen scrolls to it */
+
+  @keyframes drop-down {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(10%);
+      opacity: 1;
+    }
+    110% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+  .container {
+    animation: drop-down 2s;
+  }
+</style>

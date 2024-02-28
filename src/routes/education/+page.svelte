@@ -1,4 +1,4 @@
-<div class="h-screen flex flex-row max-sm:flex-wrap items-center text-black " style="color: #ff6600">
+<div class="h-screen flex flex-row max-sm:flex-wrap items-center text-black fullsail" style="color: #ff6600">
   <section class="mx-auto flex flex-col  items-center">
     <img 
     src="./fsuLogo.svg" 
@@ -14,7 +14,7 @@
 </div>
 
 
-<div class="h-screen flex flex-row max-sm:flex-wrap items-center content-center justify-start bg-blue">
+<div class="h-screen flex flex-row max-sm:flex-wrap items-center content-center justify-start bg-blue snhu">
   <section class="mx-auto flex flex-col items-center">
     <h2 class="h2">Cybersecurity</h2>
     <h3 class="h3">Bachelors of Science</h3>
@@ -28,3 +28,27 @@
     class="object-fit my-5">
   </section>
 </div>
+<style>
+  @keyframes slide-in-right {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  @keyframes slide-in-left {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+.fullsail {
+  animation: slide-in-right 1s;
+}
+.snhu {
+  animation: slide-in-left 1s;
+}
+</style>

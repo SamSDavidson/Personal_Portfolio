@@ -17,11 +17,11 @@
     >
       {#each components as component}
         <div
-          class="border-2 m-3 p-3 border-blue-900 rounded-md flex flex-row bg-white hover:bg-blue-900 hover:text-white transition-all duration-300 ease-in-out"
+          class="block m-5 p-5 rounded-lg transition ease-in-out delay-150 bg-blue-500 hover:animate-bounce hover:bg-indigo-500"
         >
           <a href="/playbook/{component.id}">
             <label for={component.title} class="h5">{component.title}</label>
-            <img class="m-3" src={component.image} alt={component.title} />
+            <img class="m-3 w-28 h-28" src={component.image} alt={component.title} />
           </a>
         </div>
       {/each}
